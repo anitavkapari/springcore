@@ -13,6 +13,7 @@
  			<value>342342</value>
  			<value>43434</value>
  			<value>324235</value>
+ 			<null/>
  		</list>
  	</property>
  	
@@ -33,6 +34,12 @@
   			<entry key="Android" value="4months"></entry>
  			
  		</map>
+ 	</property>
+ 	<property name="prop">
+ 		<props>
+ 			<prop key="name">Anita</prop>
+ 			<prop key="channelName">JavaTPoint</prop>
+ 		</props>
  	</property>
  </bean>
  </beans>

@@ -3,7 +3,6 @@ package com.springcore.collections;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.springcore.Student;
 
 public class Test {
 
@@ -15,6 +14,7 @@ public class Test {
         System.out.println( employee.getAddresses() );
         System.out.println( employee.getPhone() );
         System.out.println( employee.getCourses() );
+        System.out.println( employee.getProp() );
 
 	}
 
