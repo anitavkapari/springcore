@@ -11,6 +11,8 @@ public class TestCi {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/ci/ciconfig.xml");
         Person person = (Person) context.getBean("person");
         System.out.println( person);
+        Addition add = (Addition) context.getBean("add");
+        add.doSum();
 	}
 
 }
