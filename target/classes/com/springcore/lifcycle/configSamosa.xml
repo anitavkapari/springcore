@@ -7,8 +7,12 @@
  
  <!-- This is our beans  -->
  <bean class="com.springcore.lifcycle.Samosa" name="samosa" 
- init-method="init"
- destroy-method="destroy"
- p:price="20" />
+ 	init-method="init"
+ 	destroy-method="destroy"
+ 	p:price="20" />
+ 
+ <bean class="com.springcore.lifcycle.Pepsi" name="pepsi">
+ 	<property name="price" value="90"></property>
+ </bean>
  
  </beans>
